@@ -6,7 +6,19 @@ namespace _01HalloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Whats ur name");
+
+            string naam = Console.ReadLine();
+
+            //optie 01
+            Console.WriteLine("Hallo, " + naam);
+
+            //Optie 02
+            naam = Console.ReadLine();
+            Console.WriteLine($"Hello {naam}!");
+
+
         }
     }
 }
+
