@@ -17,6 +17,10 @@ namespace _01HalloWorld
             naam = Console.ReadLine();
             Console.WriteLine($"Hello {naam}!");
 
+            //optie 03
+            naam = Console.ReadLine();
+            Console.WriteLine("Hello {0}!", naam);
+
 
         }
     }
