@@ -125,6 +125,16 @@ namespace _02Variable
 
 
 
+            //Rare toestanden
+            Console.WriteLine(5 + 5); //10
+            Console.WriteLine("5" + 5); // 55 --> 5 in "" zorgt ervoor dat de andere 5 eraan komt geplakt. 
+            Console.WriteLine('5' +  5); // 58--> Ascii '5' als cijfer = 53 en we doen er +5 bij.
+            Console.WriteLine('a' + 5); // ascii --> 97 en + 5 => 102
+
+
+
+
+
 
         }
     }
