@@ -137,6 +137,27 @@ namespace _02Variable
             //characters in string
             naam = "Elisabeth";
             char eersteChar = naam[0]; 
+            Console.WriteLine($"Eeste character van {naam} is {eersteChar}");
+
+            //optie 2
+            eersteChar = naam.ElementAt(0);
+            Console.WriteLine($"Eeste character van {naam} is {eersteChar}");
+
+            char laatsteChar = naam[naam.Length-1];
+            Console.WriteLine($"Laatste character van {naam} is {laatsteChar}");
+
+            //Optie 2
+            laatsteChar = naam[^1];
+            Console.WriteLine($"Laatste character van {naam} is {laatsteChar}");
+
+            //Optie 3
+            laatsteChar = naam.ElementAt(^1);
+            Console.WriteLine($"Laatste character van {naam} is {laatsteChar}");
+
+            //Combo
+            laatsteChar = naam.ElementAt(naam.Length-1);
+            Console.WriteLine($"Laatste character van {naam} is {laatsteChar}"
+            //Gebruik van ^ is niet best/gemakkelijkst
 
 
 
