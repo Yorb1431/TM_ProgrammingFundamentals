@@ -156,9 +156,23 @@ namespace _02Variable
 
             //Combo
             laatsteChar = naam.ElementAt(naam.Length-1);
-            Console.WriteLine($"Laatste character van {naam} is {laatsteChar}"
+            Console.WriteLine($"Laatste character van {naam} is {laatsteChar}");
             //Gebruik van ^ is niet best/gemakkelijkst
 
+
+
+
+            //voorwaarden controleren zonder IF statement
+            //Controleren of getal groter is als 10 en kleiner als 100 --> Resultaat >= 1 en <> 10 als  laatste of de modelo < 100 en > 10
+
+            int getal = 12;
+            Console.WriteLine(getal > 10 && getal < 100); //True
+
+            int resultaat = getal / 10;
+            Console.WriteLine(resultaat >= 1 && resultaat <= 10); //True
+
+            int resultaatNaModulo = 100 % getal;
+            Console.WriteLine(resultaatNaModulo < 100 && resultaatNaModulo > 10); // False --> Niet groter als 10
 
 
 
