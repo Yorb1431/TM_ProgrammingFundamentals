@@ -54,9 +54,10 @@ namespace _02Variable
 
             // Prefix en postfix
             Console.WriteLine($"x++ geef als resultaat {x++}");
-            /*Console.WriteLine($"x++ geef als resultaat {x++}");
+            Console.WriteLine(x); // ==> eigelijk 6 maar we zien 5 op vorige regel
+            Console.WriteLine($"++x geef als resultaat {++x}"); // 7
             Console.WriteLine($"x-- geef als resultaat {x--}");
-            Console.WriteLine($"--x geef als resultaat {--x}"); */
+            Console.WriteLine($"--x geef als resultaat {--x}");
 
         }
     }
