@@ -22,7 +22,10 @@ namespace _02Variable
             y = 8;
             Console.WriteLine(x);
 
+            byte nummerByte = 12;
+            // nummerByte = 256; ==> Min waarde 0 max Waarden 255
 
+            short
 
 
 
