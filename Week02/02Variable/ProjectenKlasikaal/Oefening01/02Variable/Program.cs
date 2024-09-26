@@ -131,8 +131,12 @@ namespace _02Variable
             Console.WriteLine('5' +  5); // 58--> Ascii '5' als cijfer = 53 en we doen er +5 bij.
             Console.WriteLine('a' + 5); // ascii --> 97 en + 5 => 102
             Console.WriteLine('a' + 'b' + 'c'); // 294 //Posible examn question
+            Console.WriteLine('5' + '5'); //106
+            Console.WriteLine("" + 5 + 5); //55 -->  Computer denkt alles is een string
 
-
+            //characters in string
+            naam = "Elisabeth";
+            char eersteChar = naam[0]; 
 
 
 
