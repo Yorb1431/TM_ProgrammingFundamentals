@@ -80,6 +80,25 @@ namespace _02Variable
             Console.WriteLine($"10 % 3 = {10 - (resultaatNaDeling)}");
 
 
+
+            // compound operators voor getallen
+            Console.WriteLine($"x start op {+x}"); //Startpunt
+
+            x += 10; //15
+            Console.WriteLine($"x += 10 --> {x}");
+
+            x -= 7; //8
+            Console.WriteLine($"x -= 7 --> {x}");
+
+            x *= 4; //32
+            Console.WriteLine($"x *= 4 --> {x}");
+
+            x /= 3; //10
+            Console.WriteLine($"x /= " --> {x}");
+
+            x %= 5; //0
+            Console.WriteLine($"x %= 5 --> {x}");
+
         }
     }
 }
