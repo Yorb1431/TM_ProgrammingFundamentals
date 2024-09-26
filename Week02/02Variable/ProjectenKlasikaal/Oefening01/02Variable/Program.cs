@@ -114,6 +114,18 @@ namespace _02Variable
 
 
 
+            //Vergelijkingsoperatoren (comparison operators)
+            Console.WriteLine($"x = {x} en y = {y}"); //x= 0 en y = 8
+            Console.WriteLine($"x < y --> {x < y}"); //true
+            Console.WriteLine($"x > y --> {x > y}"); //false
+            Console.WriteLine($"x >= y --> {x >= y}"); //true
+            Console.WriteLine($"x <= y --> {x <= y}"); //false
+            Console.WriteLine($"x == y --> {x == y}"); // false
+            Console.WriteLine($"x != y --> {x != y}"); //True
+
+
+
+
         }
     }
 }
