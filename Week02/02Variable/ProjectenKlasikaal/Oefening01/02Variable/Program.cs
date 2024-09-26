@@ -70,7 +70,13 @@ namespace _02Variable
             Console.WriteLine($"5.0 / y = {5.0 / y}");
 
             //Modulo %
-            Console.WriteLine($"10 % 9 = {9 % 10}"); //Hoeveel x gaat 9 in 10
+            Console.WriteLine($"10 % 9 = {10 % 9}"); //Hoeveel x gaat 9 in 10
+            Console.WriteLine($"10 % 8 = {10 % 8}"); // 2
+            Console.WriteLine($"10 % 3 = {10 % 3}"); // 1
+            Console.WriteLine($"10 % 5 = {10 % 5}"); // 0
+
+            //Modulo zonder % operator
+            int resultaatNaDeling = 10 / 3;
 
 
         }
