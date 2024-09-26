@@ -10,7 +10,7 @@ namespace _02Variable
             // Werken  rond variable
             // Declareren ervan
 
-            string naam = "Mumba";
+            string naam = "Mumiba";
             naam = "iets anders";
 
             char c = 'a';
@@ -94,10 +94,25 @@ namespace _02Variable
             Console.WriteLine($"x *= 4 --> {x}");
 
             x /= 3; //10
-            Console.WriteLine($"x /= " --> {x}");
+            Console.WriteLine($"x /= 3 --> {x}");
 
             x %= 5; //0
             Console.WriteLine($"x %= 5 --> {x}");
+
+
+
+
+            // compound operators voor string
+            naam = "Mumiba";
+            naam += "Jahir"; // Achternaam toegevoegd //Gebruik spacie ervoor nu geen spacies
+            Console.WriteLine(naam);
+
+            naam = "Mumiba";
+            naam += "Jahir " + naam;
+            Console.WriteLine(naam);
+
+
+
 
         }
     }
