@@ -77,6 +77,7 @@ namespace _02Variable
 
             //Modulo zonder % operator
             int resultaatNaDeling = 10 / 3;
+            Console.WriteLine($"10 % 3 = {10 - (resultaatNaDeling)}");
 
 
         }
