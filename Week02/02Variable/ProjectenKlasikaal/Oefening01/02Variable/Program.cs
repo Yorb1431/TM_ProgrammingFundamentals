@@ -12,10 +12,8 @@ namespace _02Variable
 
             string naam = "Mumba";
             naam = "iets anders";
-            Console.WriteLine(naam);
 
             char c = 'a';
-            Console.WriteLine(c);
 
             // getallen
             int x, y; //Declarenen
@@ -33,8 +31,32 @@ namespace _02Variable
             // kommagetallen
             double nummerDouble = 45.896789; //Niet meer als 15 getallen na komma. 
 
+            float f = 45.32f;
+
+            Console.WriteLine(naam);
+            Console.WriteLine(c);
+            Console.WriteLine(nummerByte);
+            Console.WriteLine(nummerShort);
+            Console.WriteLine(nummerDouble);
+            Console.WriteLine(f);
+            Console.WriteLine(l);
 
 
+            //Optellen en aftrekken ++ en --
+            Console.WriteLine($"x = {x} en y = {y}");
+            Console.WriteLine();
+
+            x++; //x = x + 1
+            Console.WriteLine($"x = {x}");
+
+            --x;
+            Console.WriteLine($"x = {x}");
+
+            // Prefix en postfix
+            Console.WriteLine($"x++ geef als resultaat {x++}");
+            /*Console.WriteLine($"x++ geef als resultaat {x++}");
+            Console.WriteLine($"x-- geef als resultaat {x--}");
+            Console.WriteLine($"--x geef als resultaat {--x}"); */
 
         }
     }
