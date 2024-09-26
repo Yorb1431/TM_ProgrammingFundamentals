@@ -66,8 +66,11 @@ namespace _02Variable
             Console.WriteLine($"x - y = {x - y}"); //-3
             Console.WriteLine($"x * y = {x * y}"); //40
             Console.WriteLine($"x / y = {x / y}"); //0
+            //0.625 ==> 2 gehelen getallen delen = negeert afronding
+            Console.WriteLine($"5.0 / y = {5.0 / y}");
 
-
+            //Modulo %
+            Console.WriteLine($"10 % 9 = {9 % 10}"); //Hoeveel x gaat 9 in 10
 
 
         }
