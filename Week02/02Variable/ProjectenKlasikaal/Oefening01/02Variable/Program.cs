@@ -59,6 +59,17 @@ namespace _02Variable
             Console.WriteLine($"x-- geef als resultaat {x--}");
             Console.WriteLine($"--x geef als resultaat {--x}");
 
+            Console.WriteLine();
+            // arithmetic (math)
+            Console.WriteLine($"x = {x} en y = {y}"); // x= 5 y= 8
+            Console.WriteLine($"x + y = {x + y}"); //13
+            Console.WriteLine($"x - y = {x - y}"); //-3
+            Console.WriteLine($"x * y = {x * y}"); //40
+            Console.WriteLine($"x / y = {x / y}"); //0
+
+
+
+
         }
     }
 }
