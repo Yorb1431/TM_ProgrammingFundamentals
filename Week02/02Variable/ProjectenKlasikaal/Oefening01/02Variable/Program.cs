@@ -30,7 +30,7 @@ namespace _02Variable
             long l = 2349637382892929292;
 
             // kommagetallen
-            double nummerDouble = 45.896789 //Niet meer als 15 getallen na komma. 
+            double nummerDouble = 45.896789; //Niet meer als 15 getallen na komma. 
 
 
 
