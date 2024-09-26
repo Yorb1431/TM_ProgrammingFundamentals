@@ -1,10 +1,12 @@
-﻿namespace _02Variable
+﻿using System;
+
+namespace _02Variable
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
         }
     }
 }
