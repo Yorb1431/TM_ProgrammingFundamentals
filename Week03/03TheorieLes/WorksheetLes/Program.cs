@@ -13,14 +13,14 @@ namespace WorksheetLes
             if (int.TryParse(Console.ReadLine(), out int getal))
             {
                 // If statements
-                if (getal < 50){
+                if (getal < 50) {
                     Console.WriteLine("Getal kleiner dan 50");
                 }
-                else if (getal == 50){
+                else if (getal == 50) {
 
                     Console.WriteLine("Getal is 50");
                 }
-                else{
+                else {
                     Console.WriteLine("Getal is groter dan 50");
                 }
             }
@@ -48,7 +48,7 @@ namespace WorksheetLes
             if (getal < 50) {
                 Console.WriteLine("kleiner");
             }
-            else{
+            else {
                 if (getal == 50)
                     Console.WriteLine("Gelijk");
 
@@ -57,10 +57,38 @@ namespace WorksheetLes
                 }
             }
 
+            //optie 3 --> combineren van if's
+            if (getal != 50) //verschillend van 50
+            {
+                if (getal < 50)
+                {
+                    Console.WriteLine("Kleiner dan 50");
+                }
+                else
+                {
+                    Console.WriteLine("Groter dan 50");
+                }
+            }
+            else //Dus uitvoeren als getal wel exact 50 is.
+            {
+                Console.WriteLine("Gelijk aan 50");
+            }
 
 
+            //Combinaties maken en controleren
+            // controlere of getal gekijk of niet gelijk is aan 50
 
+            // Optie 1
+            if (getal == 50)
+            {
+                Console.WriteLine("exact 50");
+            }
+            else {
+                Console.WriteLine("Niet 50");
+            }
 
+            //Optie 2
+            if (getal < 50)
 
 
         }
