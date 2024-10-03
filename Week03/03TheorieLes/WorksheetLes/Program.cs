@@ -74,6 +74,23 @@ namespace WorksheetLes
                 Console.WriteLine("Gelijk aan 50");
             }
 
+            //optie 4: if in een else versie 2
+            if (getal > 50)
+            {
+                Console.WriteLine("Groter dan 50");
+            }
+            else
+            {
+                if (getal == 50)
+                {
+                    Console.WriteLine("Gelijk aan 50");
+                }
+                else
+                {
+                    Console.WriteLine("Kleiner dan 50");
+                }
+            }
+
 
             //Combinaties maken en controleren
             // controlere of getal gekijk of niet gelijk is aan 50
