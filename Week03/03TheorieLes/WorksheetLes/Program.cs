@@ -24,6 +24,40 @@ namespace WorksheetLes
                     Console.WriteLine("Getal is groter dan 50");
                 }
             }
+
+
+            //If statement gezien als aparte id werk met vaste structuur
+            Console.WriteLine();
+            Console.WriteLine("Test periode");
+            if (getal < 50)
+            {
+                Console.WriteLine("Getal is groter als 50");
+            }
+            if (getal == 50)
+            {
+                Console.WriteLine("Getal is 50");
+            }
+            else {
+                Console.WriteLine("Getal is groter als 50");
+            }
+
+
+
+
+            //Optie 2 if statement
+            if (getal < 50) {
+                Console.WriteLine("kleiner");
+            }
+            else{
+                Console.WriteLine("Groter");
+            }
+
+
+
+
+
+
+
         }
     }
 }
