@@ -146,7 +146,7 @@ namespace WorksheetLes
 
 
             //optie 6
-            bool condition = getal != 50;
+            bool condition = getal != 50; //=> False
             if (condition) //condition == True --> controleren
             {
                 Console.WriteLine("Getal is niet gelijk aan 50");
