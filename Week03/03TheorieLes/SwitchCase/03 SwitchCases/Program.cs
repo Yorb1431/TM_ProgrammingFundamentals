@@ -97,7 +97,13 @@ namespace _03_SwitchCases
                     break;
             }
 
-
+            //TryParse --> voorkom foutmeldingen
+            int x = Convert.ToInt32(Console.ReadLine());
+            int y = 18;
+            if (x > y)
+            {
+                Console.WriteLine("x is groter dan y");
+            }
 
 
 
