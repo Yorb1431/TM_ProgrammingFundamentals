@@ -125,6 +125,10 @@ namespace _03_SwitchCases
             }
 
 
+            //tryparse deel2
+            string antwoord = Console.ReadLine();
+            int temp;
+
 
 
 
