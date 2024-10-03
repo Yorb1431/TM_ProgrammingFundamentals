@@ -130,6 +130,27 @@ namespace _03_SwitchCases
             int temp;
 
 
+            //enkel uitvoeren als de omzetting gelukt is.
+            if (Int32.TryParse(antwoord, out temp))
+            {
+                if (temp < 0)
+                {
+                    Console.WriteLine("Het is hier koud seg");
+                }
+                else if (temp == 0)
+                {
+                    Console.WriteLine("Het is 0 graden");
+                }
+                else
+                {
+                    Console.WriteLine("Het is al iets warmer dan 0 grade");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Dit is geen temperatuur");
+            }
+
 
 
 
