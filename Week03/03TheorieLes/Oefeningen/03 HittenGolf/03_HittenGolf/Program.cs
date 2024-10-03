@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Metrics;
 namespace _03_HittenGolf
 {
     internal class Program
@@ -20,6 +21,37 @@ namespace _03_HittenGolf
             double day4 = Convert.ToDouble(Console.ReadLine());
             double day5 = Convert.ToDouble(Console.ReadLine());
 
+            int counter = 0;
+
+            if (day1 >= 30)
+            {
+                counter++;
+            }
+            if (day2 >= 30)
+            {
+                counter++;
+            }
+            if (day3 >= 30)
+            {
+                counter++;
+            }
+            if (day4 >= 30)
+            {
+                counter++;
+            }
+            if (day5 >= 30)
+            {
+                counter++;
+            }
+
+            if (day1 >= 25 && day2 >= 25 && day3 >= 25 && day4 >= 25 && day5 >= 25 && counter >= 3)
+            {
+                Console.WriteLine("Belgium is on fire!");
+            }
+            else
+            {
+                Console.WriteLine("It's probably raining again.");
+            }
 
 
         }
