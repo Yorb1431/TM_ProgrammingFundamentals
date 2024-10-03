@@ -24,7 +24,35 @@ namespace _03_SwitchCases
 
 
 
-
+            if (weekdag == 1)
+            {
+                Console.WriteLine("Maandag");
+            }
+            else if (weekdag == 2)
+            {
+                Console.WriteLine("Dinsdag");
+            }
+            else if (weekdag == 3)
+            {
+                Console.WriteLine("Woensdag");
+            }
+            else if (weekdag == 4)
+            {
+                Console.WriteLine("Donderdag");
+            }
+            else if (weekdag == 5)
+            {
+                Console.WriteLine("Vrijdag");
+            }
+            else if (weekdag == 6)
+            {
+                Console.WriteLine("Zaterdag");
+            }
+            else
+            {
+                Console.WriteLine("Zondag");
+            }
+            //bovenstaand voorbeeld met SWITCH
 
 
 
