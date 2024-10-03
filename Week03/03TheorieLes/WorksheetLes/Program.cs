@@ -91,9 +91,8 @@ namespace WorksheetLes
                 }
             }
 
-
-            //Combinaties maken en controleren
-            // controlere of getal gekijk of niet gelijk is aan 50
+            //voorwaarden combineren --> && || !
+            //controleren of een getal (niet) gelijk is aan 50
 
             // Optie 1
             if (getal == 50)
@@ -104,9 +103,15 @@ namespace WorksheetLes
                 Console.WriteLine("Niet 50");
             }
 
-            //Optie 2
-            if (getal < 50)
-
+            //optie 2
+            if (getal < 50 || getal > 50) //1 vd 2 voorwaarden moet maar terugkeren als True
+            {
+                Console.WriteLine("Getal is NIET gelijk aan 50");
+            }
+            else
+            {
+                Console.WriteLine("Getal is 50");
+            }
 
         }
     }
