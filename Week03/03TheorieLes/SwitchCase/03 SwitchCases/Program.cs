@@ -76,6 +76,26 @@ namespace _03_SwitchCases
                     break;
             }
 
+            switch (verjaardag.Day) { 
+                case 31:
+                    Console.WriteLine("Wat een mooie dag");
+                    break;
+                case 13:
+                    Console.WriteLine("Geboren op een vrijdag, dikke pech");
+                    break;
+                case 1:
+                    Console.WriteLine("Ben je geboren in april, je bent een wandelende mop");
+                    break;
+                case 7:
+                    Console.WriteLine("Lucky number 7");
+                    break;
+                case 5:
+                    Console.WriteLine("Je bent beter als 4");
+                    break;
+                   default :
+                    Console.WriteLine("RIP andere dagen");
+                    break;
+            }
 
 
 
