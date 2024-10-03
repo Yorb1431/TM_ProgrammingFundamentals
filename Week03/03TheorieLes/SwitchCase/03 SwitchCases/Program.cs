@@ -163,11 +163,6 @@ namespace _03_SwitchCases
                     Console.WriteLine("Amai het is warm");
                 }
             }
-
-
-
-
-
         }
     }
 }
