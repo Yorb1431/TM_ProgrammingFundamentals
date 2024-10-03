@@ -54,6 +54,28 @@ namespace _03_SwitchCases
             }
             //bovenstaand voorbeeld met SWITCH
 
+            switch (weekdag)
+            {
+                case 1:
+                    Console.WriteLine("Maandag");
+                    break;
+                case 2:
+                    Console.WriteLine("Dinsdag");
+                    break;
+                case 3:
+                    Console.WriteLine("Woensdag");
+                    break;
+                case 4:
+                    Console.WriteLine("Donderdag");
+                    break;
+                case 5:
+                    Console.WriteLine("Vrijdag");
+                    break;
+                default:
+                    Console.WriteLine("Wohooow weekend");
+                    break;
+            }
+
 
 
 
