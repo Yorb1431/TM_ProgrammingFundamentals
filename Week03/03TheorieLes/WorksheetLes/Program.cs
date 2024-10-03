@@ -113,6 +113,88 @@ namespace WorksheetLes
                 Console.WriteLine("Getal is 50");
             }
 
+
+            //optie 3
+            if (getal != 50)
+            {
+                Console.WriteLine("Getal is niet gelijk aan 50");
+            }
+            else
+            {
+                Console.WriteLine("Getal is 50");
+            }
+
+            //optie 4
+            if (!(getal == 50))
+            {
+                Console.WriteLine("Getal is niet gelijk aan 50");
+            }
+            else
+            {
+                Console.WriteLine("Getal is 50");
+            }
+
+            //optie 5
+            if (getal == 50 && !(getal != 50))
+            {
+                Console.WriteLine("Getal is gelijk aan 50");
+            }
+            else
+            {
+                Console.WriteLine("Getal is NIET gelijk aan 50");
+            }
+
+
+            //optie 6
+            bool condition = getal != 50;
+            if (condition) //condition == True --> controleren
+            {
+                Console.WriteLine("Getal is niet gelijk aan 50");
+            }
+            else
+            {
+                Console.WriteLine("Getal is 50");
+            }
+
+
+            //optie 7
+            if (!condition)
+            {
+                Console.WriteLine("Getal is 50");
+            }
+            else
+            {
+                Console.WriteLine("Getal is niet gelijk aan 50");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
