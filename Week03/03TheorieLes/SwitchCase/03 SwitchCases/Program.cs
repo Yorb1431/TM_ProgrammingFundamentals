@@ -8,6 +8,9 @@ namespace _03_SwitchCases
             //info datums gecombineerd met SWITCH CASES
             int weekdag = (int)DateTime.Now.DayOfWeek;
             Console.WriteLine(weekdag);
+
+            string dagInWoorden = DateTime.Now.DayOfWeek.ToString();
+            Console.WriteLine(dagInWoorden);
         }
     }
 }
