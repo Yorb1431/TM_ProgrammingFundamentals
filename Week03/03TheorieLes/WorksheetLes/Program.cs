@@ -49,7 +49,12 @@ namespace WorksheetLes
                 Console.WriteLine("kleiner");
             }
             else{
-                Console.WriteLine("Groter");
+                if (getal == 50)
+                    Console.WriteLine("Gelijk");
+
+                else {
+                    Console.WriteLine("Groter");
+                }
             }
 
 
