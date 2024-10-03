@@ -11,6 +11,28 @@ namespace _03_SwitchCases
 
             string dagInWoorden = DateTime.Now.DayOfWeek.ToString();
             Console.WriteLine(dagInWoorden);
+
+            //Console.WriteLine(DateTime.Now); --> alle gegevens die we bijhouden
+
+            DateTime yesterday = new DateTime(2024, 10, 02);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
