@@ -151,7 +151,18 @@ namespace _03_SwitchCases
                 Console.WriteLine("Dit is geen temperatuur");
             }
 
-
+            //is de omzetting niet gelukt, voer dan alles uit binnen else.
+            if (!Int32.TryParse(antwoord, out temp))
+            {
+                Console.WriteLine("Wat een vreemde temperatuur");
+            }
+            else
+            {
+                if (temp > 0)
+                {
+                    Console.WriteLine("Amai het is warm");
+                }
+            }
 
 
 
