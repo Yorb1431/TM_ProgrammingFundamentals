@@ -98,6 +98,7 @@ namespace _03_SwitchCases
             }
 
             //TryParse --> voorkom foutmeldingen
+            Console.WriteLine("x = ");
             int x = Convert.ToInt32(Console.ReadLine());
             int y = 18;
             if (x > y)
@@ -106,6 +107,22 @@ namespace _03_SwitchCases
             }
 
 
+            // ontwijken if statement
+            Console.WriteLine("x = ");
+            string answer = Console.ReadLine();
+            bool succes = Int32.TryParse(answer, out x); //checkt of gelukt omzetten input naar geheel getal
+
+            if (succes)
+            {
+                if (x > y)
+                {
+                    Console.WriteLine("x is groter dan y");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Crazy output");
+            }
 
 
 
