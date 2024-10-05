@@ -6,38 +6,18 @@ namespace Basis
     {
         static void Main(string[] args)
         {
-            /*
-             we can easily convert between char and int (as we've seen in class)
-               check out String-library!
- 
+            // Only take input without additional text prompts
+            string antwoord = Console.ReadLine();  // Input is read as string
 
-                Input/Output
-                    input:
-                        66
-                    output:
-                        b
-                        B
+            // Convert the input string to an integer
+            int getal = Convert.ToInt32(antwoord);
 
-                    input:
-                        107
-                    output:
-                        k
-                        K
-             */
+            // Convert the integer to its corresponding character (ASCII)
+            char karakter = (char)getal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+            // Output the lowercase and uppercase versions of the character in one line
+            Console.WriteLine($"{char.ToLower(karakter)}");
+            Console.WriteLine($"{char.ToUpper(karakter)}");
         }
     }
 }
