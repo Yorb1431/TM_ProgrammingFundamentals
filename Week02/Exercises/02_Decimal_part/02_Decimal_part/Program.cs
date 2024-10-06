@@ -32,7 +32,7 @@ namespace Basis
 
             DecimalDeel = Math.Round(DecimalDeel, 6);
 
-            Console.WriteLine("Decimal part = " + DecimalDeel);
+            Console.WriteLine("Decimal part = " + DecimalDeel.ToString("F6"));
         }
     }
 }
