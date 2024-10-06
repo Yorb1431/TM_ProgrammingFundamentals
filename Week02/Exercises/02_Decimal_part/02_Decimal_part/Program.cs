@@ -24,9 +24,15 @@ namespace Basis
                     Decimal part = 0.389000             
              */
 
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
 
+            double nummer = Convert.ToDouble(Console.ReadLine());
 
+            double DecimalDeel = nummer - (int)nummer;
 
+            DecimalDeel = Math.Round(DecimalDeel, 6);
+
+            Console.WriteLine("Decimal part = " + DecimalDeel);
         }
     }
 }
