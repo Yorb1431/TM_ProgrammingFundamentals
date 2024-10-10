@@ -1,5 +1,4 @@
-﻿using System;
-namespace _03_Roots
+﻿namespace _03_Roots
 {
     internal class Program
     {
@@ -35,12 +34,26 @@ namespace _03_Roots
                     Output:
                         -1 v 2
              */
-            int a = Convert.ToInt32(Console.ReadLine());
-            int b = Convert.ToInt32(Console.ReadLine());
-            int c = Convert.ToInt32(Console.ReadLine());
-            int d = Convert.ToInt32(Math.Pow(b, 2) - 4 * a * c);
+            double a = Convert.ToDouble(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
+            double c = Convert.ToDouble(Console.ReadLine());
+            double d = Convert.ToDouble(Math.Pow(b, 2) - 4 * a * c);
 
-
+            if (d > 0)
+            {
+                double root1 = (-b + Math.Sqrt(d)) / (2 * a);
+                double root2 = (-b - Math.Sqrt(d)) / (2 * a);
+                Console.WriteLine(root1 + " " + root2);
+            }
+            else if (d == 0)
+            {
+                double root1 = (-b + Math.Sqrt(d)) / (2 * a);
+                Console.WriteLine(root1);
+            }
+            else
+            {
+                Console.WriteLine("no real solution");
+            }
 
         }
     }
