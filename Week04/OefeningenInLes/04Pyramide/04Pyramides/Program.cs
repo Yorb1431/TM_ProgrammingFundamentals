@@ -5,7 +5,11 @@ namespace _04Pyramides
     {
         static void Main(string[] args)
         {
-            
+            // *
+            // * *
+            // * * *
+            // * * * *
+
         }
     }
 }
