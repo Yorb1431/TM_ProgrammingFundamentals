@@ -5,7 +5,22 @@ namespace _03WeekHerhaling
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            /*
+             Schrijf een programma dat gebaseerd is op de nummer van de maand
+                de efectieve naam van de maand toont.
+
+            Tryparse gebruiken
+            Verplicht nesten
+            verplicht switch case
+                switch()
+                    {
+                        case...:
+                            break;
+                        Default;
+                    }
+             
+             Alles dat geen valide maandnummer is, crazy input
+             */
         }
     }
 }
