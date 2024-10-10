@@ -33,9 +33,12 @@ namespace _03_Roots
                         3
                         2
                     Output:
-                        -1 v _2
+                        -1 v 2
              */
-
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
+            int d = Convert.ToInt32(Math.Pow(b, 2) - 4 * a * c);
 
 
 
