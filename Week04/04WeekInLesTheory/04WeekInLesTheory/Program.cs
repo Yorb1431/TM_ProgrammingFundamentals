@@ -5,7 +5,11 @@ namespace _04WeekInLesTheory
     {
         static void Main(string[] args)
         {
-            
+            // maaltafel van een getal
+            Console.Write("Geef een getal: ");
+            int getal = Convert.ToInt32(Console.ReadLine());
+
+            //Idiote versie
         }
     }
 }
