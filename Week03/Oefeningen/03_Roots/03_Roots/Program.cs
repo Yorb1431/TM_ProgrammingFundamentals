@@ -41,13 +41,13 @@
 
             if (d > 0)
             {
-                double root1 = (-b + Math.Sqrt(d)) / (2 * a);
-                double root2 = (-b - Math.Sqrt(d)) / (2 * a);
+                double root1 = Math.Round((-b + Math.Sqrt(d)) / (2 * a),2);
+                double root2 = Math.Round((-b - Math.Sqrt(d)) / (2 * a),2);
                 Console.WriteLine(root1 + " " + root2);
             }
             else if (d == 0)
             {
-                double root1 = (-b + Math.Sqrt(d)) / (2 * a);
+                double root1 = Math.Round((-b + Math.Sqrt(d)) / (2 * a),2);
                 Console.WriteLine(root1);
             }
             else
