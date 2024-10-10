@@ -1,5 +1,4 @@
-﻿using System;
-namespace _03_Negative
+﻿namespace _03_Negative
 {
     internal class Program
     {
@@ -22,7 +21,22 @@ namespace _03_Negative
                              -26
              */
 
+            int number = Convert.ToInt32(Console.ReadLine());
 
+            if (0 < number)
+            {
+                int NegatiefNumber = -Math.Abs(number);
+
+                Console.WriteLine(NegatiefNumber);
+            }
+            else if (0 > number)
+            {
+                Console.WriteLine(number);
+            }
+            else
+            {
+                Console.WriteLine("error converting");
+            }
         }
     }
 }
