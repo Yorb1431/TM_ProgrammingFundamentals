@@ -5,23 +5,26 @@ namespace _03_Special
     {
         static void Main(string[] args)
         {
-            /*
-             Read in a character and check whether a character is a vowel, a consonant, a digit or a special character.
+            // Read a character from user input
+            Console.Write("Enter a character: ");
+            char ch = Console.ReadKey().KeyChar; // Read a single character
+            Console.WriteLine(); // Move to the next line
 
- 
-
-                Input/Output
-                    input:
-                        a
-                    output:
-                        vowel
-                
-                    input:
-                        ?
-                    output:
-                        special character
-             */
-
+            // Check if the character is a vowel
+            if ("aeiouAEIOU".Contains(ch))
+            {
+                Console.WriteLine("vowel");
+            }
+            // Check if the character is a digit
+            else if (ch >= '0' && ch <= '9')
+            {
+                Console.WriteLine("digit");
+            }
+            // If none of the above, it's a special character
+            else
+            {
+                Console.WriteLine("special character");
+            }
         }
     }
 }
