@@ -5,7 +5,23 @@ namespace _03_Special
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            /*
+             Read in a character and check whether a character is a vowel, a consonant, a digit or a special character.
+
+ 
+
+                Input/Output
+                    input:
+                        a
+                    output:
+                        vowel
+                
+                    input:
+                        ?
+                    output:
+                        special character
+             */
+
         }
     }
 }
