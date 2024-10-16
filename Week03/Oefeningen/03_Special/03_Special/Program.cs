@@ -1,26 +1,24 @@
-﻿using System;
-
-namespace _03_Special
+﻿namespace _03_Special
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter a character: ");
-            char ch = Console.ReadKey().KeyChar; 
-            Console.WriteLine(); 
+            char che = char.Parse(Console.ReadLine());
+            string consonants = "ZRTYPMLKJHGFDSQWXCVBNzrtypmlkjhgfdsqwxcvbn";
+            string vowels = "aeiouAEIOU";
 
-            if ("aeiouAEIOU".Contains(ch))
+            if (consonants.Contains(che))
+            {
+                Console.WriteLine("consonant");
+            }
+            else if (vowels.Contains(che))
             {
                 Console.WriteLine("vowel");
             }
-            else if (ch >= '0' && ch <= '9')
+            else if (char.IsDigit(che))
             {
                 Console.WriteLine("digit");
-            }
-            else if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
-            {
-                Console.WriteLine("consonant");
             }
             else
             {
