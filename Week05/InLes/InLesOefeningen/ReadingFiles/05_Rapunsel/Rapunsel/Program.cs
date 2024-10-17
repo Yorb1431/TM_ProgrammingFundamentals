@@ -127,7 +127,7 @@ namespace Rapunsel
             Console.WriteLine($"# woorden: {matches.Count}");
 
             rx = new Regex("rapunzel", RegexOptions.IgnoreCase);
-            Console.WriteLine(rx.Replace(text, "Anthony"));
+            Console.WriteLine(rx.Replace(text, "Janos"));
 
         }
     }
