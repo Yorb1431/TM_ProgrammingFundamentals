@@ -37,9 +37,26 @@ namespace InLesTheoryWeek05
                 stream.WriteLine("nog eentje");
                 stream.WriteLine("Laatste");
                 stream.Close();
-
-
             }
+            if  (File.Exists(@"C:\TestFilePromgramming\file.txt"))
+            {
+                stream = File.AppendText(@"C:\TestFilePromgramming\file.txt");
+                stream.WriteLine("HOLA");
+                stream.Close();
+            }
+
+
+            string muziekfolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic); // maak file in muziek map
+            string pathMuziek = Path.Combine(muziekfolder, "file.txt");
+            stream = File.CreateText(pathMuziek);
+            stream.WriteLine("Test???");
+            stream.Close();
+
+            if (File.Exists(pathMuziek)) //Delete file in muziek map
+            {
+                File.Delete(pathMuziek);
+            }
+
 
         }
     }
