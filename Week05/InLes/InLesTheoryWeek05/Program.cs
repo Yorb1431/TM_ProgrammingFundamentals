@@ -19,6 +19,28 @@ namespace InLesTheoryWeek05
             stream = File.CreateText(@"C:\TestFilePromgramming\file.txt");
             stream.WriteLine("Tekstfile in mijn andere locatie");
             stream.Close();
+
+
+
+
+            //File op desktop
+            string desktopFolder = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            //desktop folder is een string van path naar desktop
+            string path = Path.Combine(desktopFolder, "file.txt");
+            stream = File.CreateText(path);
+            stream.WriteLine("Test op het desktop");
+            stream.Close();
+
+            if (File.Exists(path)) { //checked of file bestaat  op  bureublad (file.txt)
+                stream = File.AppendText(path); //  tekst toevoegen aan bestaande tekst in file
+                stream.WriteLine("nog meer testen");
+                stream.WriteLine("nog eentje");
+                stream.WriteLine("Laatste");
+                stream.Close();
+
+
+            }
+
         }
     }
 }
