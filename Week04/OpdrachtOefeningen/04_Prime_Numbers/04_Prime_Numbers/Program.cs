@@ -1,4 +1,5 @@
-﻿namespace _04_Prime_Numbers
+﻿using System;
+namespace _04_Prime_Numbers
 {
     internal class Program
     {
