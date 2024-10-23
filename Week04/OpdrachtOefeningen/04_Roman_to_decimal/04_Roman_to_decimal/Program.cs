@@ -1,4 +1,5 @@
-﻿namespace _04_Roman_to_decimal
+﻿using System;
+namespace _04_Roman_to_decimal
 {
     internal class Program
     {
