@@ -1,4 +1,5 @@
-﻿namespace _04_Harmonic_series
+﻿using System;
+namespace _04_Harmonic_series
 {
     internal class Program
     {
