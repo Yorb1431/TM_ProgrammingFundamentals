@@ -1,4 +1,6 @@
-﻿namespace _04_Floyds_triangle
+﻿using System;
+namespace _04_Floyds_triangle
+
 {
     internal class Program
     {
