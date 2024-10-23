@@ -1,4 +1,5 @@
-﻿namespace _04_Mix_it_up
+﻿using System;
+namespace _04_Mix_it_up
 {
     internal class Program
     {
