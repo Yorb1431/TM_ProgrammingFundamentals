@@ -1,4 +1,5 @@
-﻿namespace _04_Factorial
+﻿using System;
+namespace _04_Factorial
 {
     internal class Program
     {
