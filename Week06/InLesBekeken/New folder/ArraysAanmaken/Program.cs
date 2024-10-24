@@ -108,6 +108,28 @@ namespace ArraysAanmaken
 
             Console.WriteLine();
 
+
+
+            //array vullen met split-methode
+            Console.WriteLine("Geef dieren in, gesplitst met een spatie: ");
+            string antwoord = Console.ReadLine(); //"cheetah leeuw kat hond dolfijn"
+
+            string[] dieren = antwoord.Split(' ');
+            foreach (var item in dieren)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            Console.WriteLine("Geef dieren in, gesplitst met een ;: ");
+            antwoord = Console.ReadLine(); //"cheetah leeuw kat hond dolfijn"
+
+            dieren = antwoord.Split(';');
+            foreach (var item in dieren)
+            {
+                Console.WriteLine(item);
+            }
+
         }
     }
 }
