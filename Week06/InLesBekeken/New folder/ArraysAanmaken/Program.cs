@@ -130,6 +130,31 @@ namespace ArraysAanmaken
                 Console.WriteLine(item);
             }
 
+
+
+            //array vullen en omzetten met de split-methode
+            Console.WriteLine("Geef getallen in, gesplitst met een spatie: ");
+            antwoord = Console.ReadLine(); //"8 9 12 3 -5 7 99 308 12345"
+            string[] strArray = antwoord.Split(' ');
+            int[] arrayOfInts = new int[strArray.Length];
+
+            for (int i = 0; i < arrayOfInts.Length; i++) //OF strArray.Length
+            {
+                arrayOfInts[i] = Convert.ToInt32(strArray[i]);
+            }
+
+            foreach (var item in arrayOfInts)
+            {
+                Console.WriteLine(item);
+            }
+
+            //of omzetten in 1 keer
+
+            arrayOfInts = Array.ConvertAll(strArray, Convert.ToInt32);
+
+
+
+
         }
     }
 }
