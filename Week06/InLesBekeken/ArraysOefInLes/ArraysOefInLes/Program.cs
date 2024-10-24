@@ -5,7 +5,7 @@ namespace ArraysOefInLes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int[] array = { 1, 8, -3, 6, 9, 2, 3, -4, 5 };
         }
     }
 }
