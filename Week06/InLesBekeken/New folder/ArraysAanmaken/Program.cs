@@ -77,6 +77,18 @@ namespace ArraysAanmaken
             }
 
 
+
+
+            //een hele array overschrijven.
+            doubles = new double[] { 1, 3, 4, -1, -4, 55, 8, 89 };
+
+            foreach (var item in doubles)
+            {
+                Console.Write(item + " ");
+            }
+
+            Console.WriteLine();
+
         }
     }
 }
