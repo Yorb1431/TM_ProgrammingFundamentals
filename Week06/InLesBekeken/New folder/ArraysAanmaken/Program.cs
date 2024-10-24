@@ -22,6 +22,14 @@ namespace ArraysAanmaken
             Console.WriteLine($"Laatste element van doubles: {doubles[^1]}");
             Console.WriteLine($"Laatste element van doubles: {doubles[^2]}");
 
+            //^start met tellen vanaf het einde --> ^1 is laatste element, ^2, voorlaatste, ...
+
+            //Waarden koppelen aan arrays
+            stringArray[0] = "Dean";
+            stringArray[1] = "Tom";
+            stringArray[3] = "Jana";
+            stringArray[2] = "Mustafa";
+
         }
     }
 }
