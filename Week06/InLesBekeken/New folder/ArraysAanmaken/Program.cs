@@ -51,6 +51,20 @@ namespace ArraysAanmaken
             }
 
             Console.WriteLine();
+
+
+
+            //loopen wanneer je wel de index nodig hebt.
+
+            for (int i = 0; i < doubles.Length; i++) //van index 0 - 5
+            {
+                Console.WriteLine(doubles[i]);
+            }
+
+            for (int i = doubles.Length - 1; i >= 0; i--) //van index 5 - 0
+            {
+                Console.WriteLine(doubles[i]);
+            }
         }
     }
 }
