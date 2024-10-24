@@ -5,7 +5,8 @@ namespace ArraysAanmaken
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //een array aanmaken
+            int[] intArray = new int[10]; //alle waarden zijn 0
         }
     }
 }
