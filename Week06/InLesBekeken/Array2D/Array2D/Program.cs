@@ -19,6 +19,14 @@ namespace Array2D
             fruit[1, 1] = "citroen";
             Console.WriteLine($"element in rij 2 col 2: {fruit[1, 1]}");
 
+
+            //loopen door arrays
+            Console.WriteLine(fruit.Length);
+            Console.WriteLine("# rijen : " + fruit.GetLength(0)); //checkt dimensies van array
+            Console.WriteLine("# kol : " + fruit.GetLength(1));
+
+
+
         }
     }
 }
