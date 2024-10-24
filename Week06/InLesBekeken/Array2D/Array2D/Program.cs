@@ -16,6 +16,9 @@ namespace Array2D
             Console.WriteLine($"element in rij 1 col 1: {fruit[0, 0]}");
             Console.WriteLine($"element in rij 2 col 2: {fruit[1, 1]}");
 
+            fruit[1, 1] = "citroen";
+            Console.WriteLine($"element in rij 2 col 2: {fruit[1, 1]}");
+
         }
     }
 }
