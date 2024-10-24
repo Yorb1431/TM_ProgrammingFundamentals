@@ -41,6 +41,22 @@ namespace Array2D
             }
             Console.WriteLine();
 
+
+
+            //array opvullen met random getallen en achteraf som berekenen
+            Random rd = new Random();
+            for (int i = 0; i < ints.GetLength(0); i++) ///rijen
+            {
+                for (int j = 0; j < ints.GetLength(1); j++) //kolommen
+                {
+                    ints[i, j] = rd.Next(0, 21);
+                    Console.Write(ints[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+
+
+
         }
     }
 }
