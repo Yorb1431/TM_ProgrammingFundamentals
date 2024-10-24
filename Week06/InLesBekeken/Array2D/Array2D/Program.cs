@@ -56,6 +56,14 @@ namespace Array2D
             }
 
 
+            int som = 0;
+            foreach (var item in ints)
+            {
+                som += item;
+            }
+            Console.WriteLine("som: " + som);
+
+
 
         }
     }
