@@ -30,6 +30,12 @@ namespace ArraysAanmaken
             stringArray[3] = "Jana";
             stringArray[2] = "Mustafa";
 
+
+            //stringArray[4] = "New guy"; --> index out of range want er zijn maar 4 plaatsen
+
+            Console.WriteLine($"Laatste element van doubles: {doubles[^1]}");
+            doubles[5] = 1.0;
+            Console.WriteLine($"Laatste element van doubles: {doubles[^1]}");
         }
     }
 }
