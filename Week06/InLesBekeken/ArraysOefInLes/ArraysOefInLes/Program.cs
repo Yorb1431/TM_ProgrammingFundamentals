@@ -47,6 +47,20 @@ namespace ArraysOefInLes
                     min = array[i];
                 }
             }
+
+
+
+            Console.WriteLine("min: " + min);
+
+            foreach (var item in array)
+            {
+                if (item < min)
+                {
+                    min = item;
+                }
+            }
+
+
         }
     }
 }
