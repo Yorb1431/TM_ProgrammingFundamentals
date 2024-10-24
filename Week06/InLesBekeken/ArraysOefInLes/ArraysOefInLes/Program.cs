@@ -35,6 +35,18 @@ namespace ArraysOefInLes
             }
             Console.WriteLine("som: " + som);
             Console.WriteLine("Gemiddelde: " + som / array.Length);
+
+
+            //find minimum
+            int min = array[0];
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] < min)
+                {
+                    min = array[i];
+                }
+            }
         }
     }
 }
