@@ -25,7 +25,21 @@ namespace Array2D
             Console.WriteLine("# rijen : " + fruit.GetLength(0)); //checkt dimensies van array
             Console.WriteLine("# kol : " + fruit.GetLength(1));
 
+            //rijen
+            for (int i = 0; i < fruit.GetLength(0); i++)
+            {
+                for (int j = 0; j < fruit.GetLength(1); j++)
+                {
+                    Console.Write(fruit[i, j] + "\t"); //\t = horizontal tab
+                }
+                Console.WriteLine();
+            }
 
+            foreach (var item in fruit)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
 
         }
     }
