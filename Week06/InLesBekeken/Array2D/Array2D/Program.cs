@@ -1,4 +1,5 @@
-﻿namespace Array2D
+﻿using System;
+namespace Array2D
 {
     internal class Program
     {
