@@ -5,7 +5,11 @@ namespace Array2D
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //2D array aanmaken
+            int[,] ints = new int[4, 5];
+            string[,] fruit = { { "appel", "peer", "pompelmoes", "banaan"},
+            {"limoen", "watermeloen", "aardbei", "lychee" },
+            {"druif", "granaatappel", "perzik", "appelsien" } };
         }
     }
 }
