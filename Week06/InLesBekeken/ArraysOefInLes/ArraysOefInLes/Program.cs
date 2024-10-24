@@ -14,6 +14,13 @@ namespace ArraysOefInLes
             Console.WriteLine("Gemiddelde: " + array.Average());
             Array.Sort(array);
             Array.Reverse(array);
+
+
+            foreach (var item in array)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
         }
     }
 }
