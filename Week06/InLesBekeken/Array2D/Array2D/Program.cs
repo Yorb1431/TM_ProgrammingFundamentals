@@ -10,6 +10,12 @@ namespace Array2D
             string[,] fruit = { { "appel", "peer", "pompelmoes", "banaan"},
             {"limoen", "watermeloen", "aardbei", "lychee" },
             {"druif", "granaatappel", "perzik", "appelsien" } };
+
+            //waarden opvragen
+            //reminder: index start bij 0,0
+            Console.WriteLine($"element in rij 1 col 1: {fruit[0, 0]}");
+            Console.WriteLine($"element in rij 2 col 2: {fruit[1, 1]}");
+
         }
     }
 }
