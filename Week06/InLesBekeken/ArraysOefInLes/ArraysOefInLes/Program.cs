@@ -61,6 +61,25 @@ namespace ArraysOefInLes
             }
 
 
+
+            //sorteren met een algoritme
+            //https://en.wikipedia.org/wiki/Bubble_sort
+
+            for (int i = 0; i < array.Length; i++)
+            { //checkt meerdere keren het sorterne van de array voor zoveel als er elementen zijn
+                for (int j = 0; j < array.Length - 1; j++)
+                { //checkt elementen in array en sorteert
+                    if (array[j] > array[j + 1])
+                    {
+                        int temp = array[j];
+                        array[j] = array[j + 1];
+                        array[j + 1] = temp;
+                    }
+                }
+            }
+
+
+
         }
     }
 }
