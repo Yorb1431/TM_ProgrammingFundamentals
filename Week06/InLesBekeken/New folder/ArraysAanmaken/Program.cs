@@ -64,7 +64,19 @@ namespace ArraysAanmaken
             for (int i = doubles.Length - 1; i >= 0; i--) //van index 5 - 0
             {
                 Console.WriteLine(doubles[i]);
+
             }
+
+
+            //!!!!!!!!NOOIT GEBRUIKEN AUB!!!!!!! --> WHILE
+            int index = 0;
+            while (index < doubles.Length)
+            {
+                Console.WriteLine(doubles[index]);
+                index++; //als je dit niet doet, infinite loop
+            }
+
+
         }
     }
 }
