@@ -89,6 +89,25 @@ namespace ArraysAanmaken
 
             Console.WriteLine();
 
+
+
+
+            //array opvullen met for-loop
+            for (int i = 0; i < intArray.Length; i++)
+            {
+                intArray[i] = i * 4;
+                //vullen met user input
+                //Console.Write($"Geef een getal voor index{i}: ");
+                //intArray[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
+            foreach (int INTEGER in intArray)
+            {
+                Console.Write(INTEGER + " ");
+            }
+
+            Console.WriteLine();
+
         }
     }
 }
