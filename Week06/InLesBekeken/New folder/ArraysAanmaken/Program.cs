@@ -13,6 +13,15 @@ namespace ArraysAanmaken
             Console.WriteLine(doubles.Length);
 
             int[] ints = { 1, 3, 8, 23, 99 };
+
+
+            //waarden achterhalen van bepaalde plekken in array
+            Console.WriteLine("Eerste element van intArray: " + intArray[0]);
+            Console.WriteLine($"Laatste element van doubles: {doubles[5]}");
+            Console.WriteLine($"Laatste element van doubles: {doubles[doubles.Length - 1]}");
+            Console.WriteLine($"Laatste element van doubles: {doubles[^1]}");
+            Console.WriteLine($"Laatste element van doubles: {doubles[^2]}");
+
         }
     }
 }
