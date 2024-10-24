@@ -21,6 +21,13 @@ namespace ArraysOefInLes
                 Console.Write(item + " ");
             }
             Console.WriteLine();
+
+
+
+            //algoritmische manier
+            //som maken en het gemiddelde berekenen
+            array = new int[] { 1, 8, -3, 6, 9, 2, 3, -4, 5 };
+            //neemt het origineel terug en overschrijft de array
         }
     }
 }
