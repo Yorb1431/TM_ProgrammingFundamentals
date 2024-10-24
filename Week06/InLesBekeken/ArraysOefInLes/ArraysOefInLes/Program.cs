@@ -78,6 +78,11 @@ namespace ArraysOefInLes
                 }
             }
 
+            //print array
+            foreach (var item in array)
+            {
+                Console.Write(item + " ");
+            }
 
 
         }
