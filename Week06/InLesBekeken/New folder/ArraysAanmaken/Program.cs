@@ -36,6 +36,21 @@ namespace ArraysAanmaken
             Console.WriteLine($"Laatste element van doubles: {doubles[^1]}");
             doubles[5] = 1.0;
             Console.WriteLine($"Laatste element van doubles: {doubles[^1]}");
+
+
+            //door array loopen
+            foreach (var item in stringArray) //gebruik wanneer je niet geeft om index of hoeveel elementen getoond worden
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
+
+            foreach (string s in stringArray)
+            {
+                Console.Write(s + " ");
+            }
+
+            Console.WriteLine();
         }
     }
 }
