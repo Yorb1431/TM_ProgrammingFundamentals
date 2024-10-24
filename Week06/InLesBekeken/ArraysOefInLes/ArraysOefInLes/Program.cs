@@ -1,4 +1,5 @@
-﻿namespace ArraysOefInLes
+﻿using System;
+namespace ArraysOefInLes
 {
     internal class Program
     {
