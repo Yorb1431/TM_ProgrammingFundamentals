@@ -1,4 +1,5 @@
-﻿namespace ArraysAanmaken
+﻿using System;
+namespace ArraysAanmaken
 {
     internal class Program
     {
