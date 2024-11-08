@@ -1,4 +1,5 @@
-﻿namespace _05_Punctuation
+﻿using System;
+namespace _05_Punctuation
 {
     internal class Program
     {
