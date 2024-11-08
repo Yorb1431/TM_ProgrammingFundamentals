@@ -7,36 +7,30 @@ namespace Reverse
     {
         static void Main(string[] args)
         {
-            // Prompt the user to enter the filename
-            Console.WriteLine("Enter the file name:");
-            string inputFileName = Console.ReadLine();
 
-            // Check if the file exists
-            if (!File.Exists(inputFileName))
+            string origineleBestandsnaam = Console.ReadLine();
+
+            string omgekeerdeBestandsnaam = "reverse_" + origineleBestandsnaam;
+
+            if (!File.Exists(origineleBestandsnaam))
             {
-                Console.WriteLine("File not found.");
+                Console.WriteLine("File not found: " + origineleBestandsnaam);
                 return;
             }
 
-            // Create the output filename
-            string outputFileName = $"reverse_{inputFileName}";
+            string[] regels = File.ReadAllLines(origineleBestandsnaam);
 
-            try
+            string[] omgekeerdeRegels = new string[regels.Length];
+            for (int i = 0; i < regels.Length; i++)
             {
-                // Read all lines from the input file
-                string[] lines = File.ReadAllLines(inputFileName);
-
-                // Reverse the order of the lines
-                Array.Reverse(lines);
-
-                // Write the reversed lines to the output file
-                File.WriteAllLines(outputFileName, lines);
-
-                Console.WriteLine($"File created: {outputFileName}");
+                omgekeerdeRegels[i] = regels[regels.Length - 1 - i];
             }
-            catch (Exception ex)
+
+            File.WriteAllLines(omgekeerdeBestandsnaam, omgekeerdeRegels);
+
+            foreach (string regel in omgekeerdeRegels)
             {
-                Console.WriteLine("An error occurred: " + ex.Message);
+                Console.WriteLine(regel);
             }
         }
     }
