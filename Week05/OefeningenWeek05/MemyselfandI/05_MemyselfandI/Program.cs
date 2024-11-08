@@ -1,4 +1,5 @@
-﻿namespace _05_MemyselfandI
+﻿using System;
+namespace _05_MemyselfandI
 {
     internal class Program
     {
