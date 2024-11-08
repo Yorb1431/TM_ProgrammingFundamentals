@@ -1,4 +1,5 @@
-﻿namespace Pangram
+﻿using System;
+namespace Pangram
 {
     internal class Program
     {
