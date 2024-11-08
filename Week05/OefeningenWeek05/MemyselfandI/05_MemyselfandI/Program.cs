@@ -7,40 +7,21 @@ namespace _05_MemyselfandI
     {
         static void Main(string[] args)
         {
-            // Prompt the user for the artist name
-            Console.WriteLine("Enter the artist name:");
-            string artistName = Console.ReadLine().ToLower(); // Convert artist name to lowercase
+            string artiesteNaam = Console.ReadLine().ToLower();
 
-            // Set the folder path where the .txt files are located
-            string folderPath = Directory.GetCurrentDirectory(); // Assuming the files are in the current directory
-
-            // Get all .txt files in the folder
-            string[] files = Directory.GetFiles(folderPath, "*.txt");
-
-            // Initialize a counter for occurrences
             int occurrences = 0;
+            string[] files = Directory.GetFiles(Directory.GetCurrentDirectory(), "*.txt");
 
-            // Loop through each file
-            foreach (var file in files)
+            foreach (string bestand in files)
             {
-                // Read the content of the file
-                string content = File.ReadAllText(file).ToLower(); // Read content as lowercase
+                // Lees de inhoud van het bestand
+                string inhoud = File.ReadAllText(bestand).ToLower();
 
-                // Use regex to find occurrences of the artist's name
-                occurrences += CountOccurrences(content, artistName);
+                Regex patroon = new Regex(@"\b" + Regex.Escape(artiesteNaam) + @"\b");
+                occurrences += patroon.Matches(inhoud).Count;
             }
 
-            // Output the result
-            Console.WriteLine($"{occurrences} occurrences of {artistName}");
-        }
-
-        // Method to count occurrences of the artist's name using regex
-        static int CountOccurrences(string content, string artistName)
-        {
-            string pattern = @"\b" + Regex.Escape(artistName) + @"\b"; // Regex pattern for whole word match
-            MatchCollection matches = Regex.Matches(content, pattern);
-
-            return matches.Count;
+            Console.WriteLine($"{occurrences} occurrences of {artiesteNaam}");
         }
     }
 }
