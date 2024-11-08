@@ -1,4 +1,6 @@
-﻿namespace _05_SplitEmUp
+﻿using System;
+using System.IO;
+namespace _05_SplitEmUp
 {
     internal class Program
     {
