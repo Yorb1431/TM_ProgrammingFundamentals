@@ -1,4 +1,5 @@
-﻿namespace _05_NameChange
+﻿using System;
+namespace _05_NameChange
 {
     internal class Program
     {
