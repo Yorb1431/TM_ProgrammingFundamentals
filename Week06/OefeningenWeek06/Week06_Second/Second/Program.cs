@@ -5,7 +5,10 @@ namespace Second
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Stap 1: Lees array getallen
+            // Stap 2: Zoek grootste getal
+            // Stap 3: Zoek 2degrootste getal
+            // Stap 4: Print het tweede grootste getal
         }
     }
 }
