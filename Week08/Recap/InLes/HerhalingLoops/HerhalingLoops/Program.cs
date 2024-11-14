@@ -45,6 +45,9 @@ namespace HerhalingLoops
             }
 
 
+            FOREACH PROGRAMMING
+
+
              */
 
         }
