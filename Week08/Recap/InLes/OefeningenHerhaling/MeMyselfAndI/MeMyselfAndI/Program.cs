@@ -10,7 +10,6 @@ namespace MeMyselfAndI
             string filenaam = Console.ReadLine();
             Regex rx = new Regex(filenaam.ToLower());
 
-
             string txt = File.ReadAllText(filenaam.Replace(" ", ".txt"));
             MatchCollection matches = rx.Matches(txt);
 
