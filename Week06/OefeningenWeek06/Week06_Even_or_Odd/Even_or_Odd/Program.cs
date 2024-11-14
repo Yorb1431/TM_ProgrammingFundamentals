@@ -1,4 +1,5 @@
-﻿namespace Even_or_Odd
+﻿using System;
+namespace Even_or_Odd
 {
     internal class Program
     {
