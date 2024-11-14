@@ -1,4 +1,5 @@
-﻿namespace Missing06
+﻿using System;
+namespace Missing06
 {
     internal class Program
     {
