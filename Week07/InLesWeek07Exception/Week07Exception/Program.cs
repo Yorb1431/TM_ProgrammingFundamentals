@@ -1,4 +1,5 @@
-﻿namespace Week07Exception
+﻿using System;
+namespace Week07Exception
 {
     internal class Program
     {
