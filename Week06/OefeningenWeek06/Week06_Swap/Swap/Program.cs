@@ -1,4 +1,5 @@
-﻿namespace Swap
+﻿using System;
+namespace Swap
 {
     internal class Program
     {
