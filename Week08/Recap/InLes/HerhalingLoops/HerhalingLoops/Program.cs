@@ -23,7 +23,7 @@ namespace HerhalingLoops
             Print lengte uit van een woord:
                 string woord = Console.ReadLine();
                 for( int i = 0, i < woord.lenght, i++){
-                    
+                       Console.WriteLine(woord[i]);
             }
 
 
