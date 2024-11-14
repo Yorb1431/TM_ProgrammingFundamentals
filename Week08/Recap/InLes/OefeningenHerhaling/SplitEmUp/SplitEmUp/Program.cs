@@ -1,4 +1,5 @@
-﻿namespace SplitEmUp
+﻿using System;
+namespace SplitEmUp
 {
     internal class Program
     {
