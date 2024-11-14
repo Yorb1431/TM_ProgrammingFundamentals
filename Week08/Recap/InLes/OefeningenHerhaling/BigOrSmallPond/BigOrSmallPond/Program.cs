@@ -1,4 +1,5 @@
-﻿namespace BigOrSmallPond
+﻿using System;
+namespace BigOrSmallPond
 {
     internal class Program
     {
