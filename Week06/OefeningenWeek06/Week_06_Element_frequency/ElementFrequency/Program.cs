@@ -1,4 +1,5 @@
-﻿namespace ElementFrequency
+﻿using System;
+namespace ElementFrequency
 {
     internal class Program
     {
