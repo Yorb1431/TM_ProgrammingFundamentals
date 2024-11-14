@@ -42,6 +42,7 @@ namespace PositiveAndNegative
                 if (i < positieveTelling - 1)
                     Console.Write(" ");
             }
+            Console.Write(" ");
             Console.WriteLine();
 
             for (int i = 0; i < negatieVeteller; i++)
