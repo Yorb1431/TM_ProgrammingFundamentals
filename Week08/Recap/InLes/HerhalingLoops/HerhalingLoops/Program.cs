@@ -28,7 +28,10 @@ namespace HerhalingLoops
 
 
             Zet het woord van achter  naar voor:
-                
+                string woord = Console.ReadLine();
+                for( int i = woord.lenght - 1, i >= 0, i++){
+                     Console.Write(woord[i]);
+            }
 
 
              */
