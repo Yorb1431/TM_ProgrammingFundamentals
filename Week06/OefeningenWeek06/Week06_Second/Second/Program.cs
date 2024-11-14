@@ -1,4 +1,5 @@
-﻿namespace Second
+﻿using System;
+namespace Second
 {
     internal class Program
     {
