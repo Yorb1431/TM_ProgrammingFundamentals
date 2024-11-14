@@ -1,4 +1,5 @@
-﻿namespace HerhalingFiles
+﻿using System;
+namespace HerhalingFiles
 {
     internal class Program
     {
