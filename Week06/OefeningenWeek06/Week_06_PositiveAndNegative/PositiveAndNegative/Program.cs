@@ -1,4 +1,5 @@
-﻿namespace PositiveAndNegative
+﻿using System;
+namespace PositiveAndNegative
 {
     internal class Program
     {
