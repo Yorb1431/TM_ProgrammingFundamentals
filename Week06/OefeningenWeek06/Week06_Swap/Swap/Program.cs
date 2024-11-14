@@ -5,7 +5,11 @@ namespace Swap
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Stap 1: Lees grootte array
+            // Stap 2: Lees array in rij per rij
+            // Stap 3: Maak nieuwe array met verwisselde rijen en kolommen
+            // Stap 4: Print nieuwe array
+
         }
     }
 }
