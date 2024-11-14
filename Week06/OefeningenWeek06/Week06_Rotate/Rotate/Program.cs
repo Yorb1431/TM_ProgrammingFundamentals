@@ -1,4 +1,5 @@
-﻿namespace Rotate
+﻿using System;
+namespace Rotate
 {
     internal class Program
     {
