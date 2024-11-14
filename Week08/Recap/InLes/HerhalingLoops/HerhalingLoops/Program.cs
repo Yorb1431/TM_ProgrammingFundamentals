@@ -47,6 +47,11 @@ namespace HerhalingLoops
 
             FOREACH PROGRAMMING
 
+            string woord = Console.ReadLine();
+            foreach( var c in woord){
+                Console.Write($"{c}");
+            }
+
 
              */
 
