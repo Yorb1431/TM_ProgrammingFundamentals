@@ -1,4 +1,5 @@
-﻿namespace ExceptionsVoorEnNa
+﻿using System;
+namespace ExceptionsVoorEnNa
 {
     internal class Program
     {
