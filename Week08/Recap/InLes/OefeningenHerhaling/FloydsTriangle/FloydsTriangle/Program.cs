@@ -1,4 +1,5 @@
-﻿namespace FloydsTriangle
+﻿using System;
+namespace FloydsTriangle
 {
     internal class Program
     {
