@@ -35,6 +35,26 @@ namespace HerhalingFiles
             }
 
             //Optie 05
+            string textInChar = File.ReadAllText("Rapunzel.txt");
+            Console.WriteLine($"{textInChar}");
+
+            foreach (char c in textInChar) {
+                if (c == 'i')
+                {
+                    Console.WriteLine("999");
+                } else
+                {
+                    Console.WriteLine($"{c}");
+                }
+            }
+
+
+            //Optie 06
+            string TT = File.ReadAllText("Rapunzel.txt");
+            for (int i = 1; i <= 20; i++)
+            {
+                Console.WriteLine($"{TT[^i]}");
+            }
 
 
 
