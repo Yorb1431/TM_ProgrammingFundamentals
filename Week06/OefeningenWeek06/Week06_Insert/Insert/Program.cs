@@ -1,4 +1,5 @@
-﻿namespace Insert
+﻿using System;
+namespace Insert
 {
     internal class Program
     {
