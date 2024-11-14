@@ -1,4 +1,5 @@
-﻿namespace HerhalingLoops
+﻿using System;
+namespace HerhalingLoops
 {
     internal class Program
     {
