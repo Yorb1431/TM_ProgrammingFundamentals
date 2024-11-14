@@ -57,10 +57,7 @@ namespace Even_or_Odd
             for (int i = 0; i < output.Length; i++)
             {
                 Console.Write(output[i]);
-                if (i < output.Length - 1)
-                {
-                    Console.Write(" "); 
-                }
+                Console.Write(" ");
             }
             Console.WriteLine();
         }
