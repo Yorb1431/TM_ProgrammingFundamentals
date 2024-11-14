@@ -41,7 +41,7 @@ namespace HerhalingLoops
             int n = 5;
             while (n < 25){
                 Console.WriteLine($"{n}");
-                n += 25
+                n += 25;
             }
 
 
