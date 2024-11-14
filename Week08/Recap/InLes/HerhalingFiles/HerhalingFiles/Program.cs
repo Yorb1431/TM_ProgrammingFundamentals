@@ -27,6 +27,10 @@ namespace HerhalingFiles
             }
             s.Close();
 
+
+            //Optie 04
+            string t = File.ReadAllLines("Rapunzel.txt");
+
         }
     }
 }
