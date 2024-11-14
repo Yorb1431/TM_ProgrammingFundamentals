@@ -8,13 +8,24 @@ namespace HerhalingFiles
         {
             /*
             //Optie 01
+
             StreamReader sr = File.OpenText("Rapunzel.txt");
             string text = sr.ReadToEnd();
             sr.Close();
             */
 
-            //Otie 02
-            
+            //Optie 02
+
+            string textvanFile = File.ReadAllText("Rapunzel.txt");
+            Console.WriteLine(textvanFile);
+
+            //Optie 03
+            StreamReader s = File.OpenText("Rapunzel.txt");
+            while (!s.EndOfStream)
+            {
+                Console.WriteLine(s.ReadLine());
+            }
+            s.Close();
 
         }
     }
