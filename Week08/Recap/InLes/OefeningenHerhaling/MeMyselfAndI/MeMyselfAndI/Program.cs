@@ -1,4 +1,6 @@
-﻿namespace MeMyselfAndI
+﻿using System;
+using System.IO;
+namespace MeMyselfAndI
 {
     internal class Program
     {
