@@ -27,6 +27,10 @@ namespace HerhalingLoops
             }
 
 
+            Zet het woord van achter  naar voor:
+                
+
+
              */
         }
     }
