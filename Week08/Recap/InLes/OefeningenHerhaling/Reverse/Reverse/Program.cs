@@ -1,4 +1,5 @@
-﻿namespace Reverse
+﻿using System;
+namespace Reverse
 {
     internal class Program
     {
