@@ -29,7 +29,12 @@ namespace HerhalingFiles
 
 
             //Optie 04
-            string t = File.ReadAllLines("Rapunzel.txt");
+            string[] t = File.ReadAllLines("Rapunzel.txt");
+            foreach (var line in t) {
+                Console.WriteLine($"-- + {line}");
+            }
+
+
 
         }
     }
